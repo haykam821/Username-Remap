@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "usernameremap",
+	"version": "${version}",
+	"name": "Username Remap",
+	"description": "Changes the username of certain connecting clients.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Username-Remap#readme",
+		"issues": "https://github.com/haykam821/Username-Remap/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.usernameremap.Main"
+		],
+		"modmenu": [
+			"io.github.haykam821.usernameremap.config.ModMenuCompatibility"
+		]
+	},
+	"mixins": [
+		"usernameremap.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/usernameremap/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}

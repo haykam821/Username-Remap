@@ -1,0 +1,10 @@
+{
+	"text.autoconfig.usernameremap.option.fallbackUsername": "Fallback Username",
+	"text.autoconfig.usernameremap.option.fallbackUsername.@Tooltip[0]": "If not empty, this will be the username",
+	"text.autoconfig.usernameremap.option.fallbackUsername.@Tooltip[1]": "used when there is not a specific username",
+	"text.autoconfig.usernameremap.option.fallbackUsername.@Tooltip[2]": "remapping for a given username.",
+	"text.autoconfig.usernameremap.option.remappedUsernames": "Remapped Usernames",
+	"text.autoconfig.usernameremap.option.remappedUsernames.@Tooltip[0]": "This is a map of login usernames to",
+	"text.autoconfig.usernameremap.option.remappedUsernames.@Tooltip[1]": "the actual usernames shown in-game.",
+	"text.autoconfig.usernameremap.title": "Username Remap Configuration"
+}

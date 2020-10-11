@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.usernameremap.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"ServerLoginNetworkHandlerMixin"
+	],
+	"client": [
+		"IntegratedServerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
